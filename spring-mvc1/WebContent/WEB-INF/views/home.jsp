@@ -15,5 +15,7 @@
 		<input type="text" name="userName"><br> <input
 			type="submit" value="Login">
 	</form>
+	<br>
+	<a href="employeeList">Employee List</a>
 </body>
 </html>
