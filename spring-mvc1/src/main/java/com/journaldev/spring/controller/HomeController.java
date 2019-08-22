@@ -42,6 +42,7 @@ public class HomeController {
 		return "user";
 	}
 	
+	/*
 	@RequestMapping(value = "/employeeList", method = RequestMethod.GET)
 	public String employeeList(Locale locale, Model model) {
 		System.out.println("employeeList 2 - Home Page Requested, locale = " + locale);
@@ -58,5 +59,6 @@ public class HomeController {
 
 		return "employeeList";
 	}
+	*/
 
 }

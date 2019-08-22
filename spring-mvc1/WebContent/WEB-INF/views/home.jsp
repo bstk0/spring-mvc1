@@ -16,6 +16,7 @@
 			type="submit" value="Login">
 	</form>
 	<br>
-	<a href="employeeList">Employee List</a>
+	<a href="employee/list">Employee List</a>
+	<a href="employee/form">Employee Add</a>
 </body>
 </html>
