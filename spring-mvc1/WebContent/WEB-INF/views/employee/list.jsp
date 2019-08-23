@@ -10,11 +10,23 @@
 </head>
 <body>
 <h3>Server: ${serverTime}</h3>
-<c:forEach items="${emp}" var="em">
-        <li>${em.id}</li>
-        <li>${em.name}</li>
-        <li>${em.title}</li>
-</c:forEach>
+
+<table>
+    <!-- here should go some titles... -->
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Title</th>
+    </tr>
+    <c:forEach items="${emp}" var="em">
+    <tr>
+        <td>${em.id}</td>
+        <td>${em.name}</td>
+        <td>${em.title}</td>
+    </tr>
+    </c:forEach>
+</table>
+
 <br>
 <a href="${contextPath}/">Voltar</a>
 </body>

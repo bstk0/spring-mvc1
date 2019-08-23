@@ -32,7 +32,7 @@ public class EmployeeController {
 		model.addAttribute("serverTime", formattedDate);
 		model.addAttribute("emp", list);
 
-		return "employeeList";
+		return "employee/list";
 	}
 	
 	
